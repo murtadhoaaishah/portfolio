@@ -15,9 +15,9 @@ const Aside = () => {
     <div className="flex flex-col h-screen w-[25rem] p-12 text-center bg-[#f2f3f7] ml-[8rem]">
       <div className="mb-12">
         <img
-          src=""
+          src="/images/IMG_1502.jpg"
           alt="my-image"
-          className="h-[12rem] w-[12rem] rounded-[50%]"
+          className="h-[12rem] w-[15rem] rounded-[50%]"
         />
       </div>
       <span className="name mb-8 text-2xl font-extrabold">Murtadho Aishat</span>
