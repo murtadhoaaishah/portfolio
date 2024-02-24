@@ -35,14 +35,15 @@ body {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 50%;
+  left: 5;
+  /* width: 50%; */
   height: 2px; /* Adjust this value to control the thickness */
-  background-color: transparent;
-  transition: width 0.3s ease; /* Optional: Add a transition for a smoother effect */
+  /* background-color: transparent; */
+  transition: width 0.3s ease;
+  /* Optional: Add a transition for a smoother effect */
 }
 
 .custom-border:hover::before {
-  width: 100%;
+  width: 28%;
   background-color: #3490dc; /* Adjust this value to control the color */
 }

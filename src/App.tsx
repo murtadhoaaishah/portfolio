@@ -1,12 +1,13 @@
 import "./App.css";
-import Aside from "./molecule/Aside";
+import Aside from "./components/Aside";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className="flex flex-row">
       <Aside />
       <section className="w-full">
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        <Hero />
       </section>
     </div>
   );
