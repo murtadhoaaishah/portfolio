@@ -16,7 +16,7 @@ const Aside = () => {
       <div className="mb-12">
         <img
           src="/images/IMG_1502.jpg"
-          alt="my-image"
+          alt="img"
           className="h-[12rem] w-[15rem] rounded-[50%]"
         />
       </div>
