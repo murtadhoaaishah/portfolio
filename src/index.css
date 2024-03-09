@@ -47,3 +47,11 @@ body {
   width: 28%;
   background-color: #3490dc; /* Adjust this value to control the color */
 }
+.hero {
+  background-image: url ("/images/IMG_1502.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+html {
+  scroll-behavior: smooth;
+}
