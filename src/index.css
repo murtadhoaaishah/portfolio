@@ -19,8 +19,9 @@ code {
 body {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  /* font-style: normal; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .name {
   font-family: "Playfair Display", serif;
@@ -40,18 +41,39 @@ body {
   height: 2px; /* Adjust this value to control the thickness */
   /* background-color: transparent; */
   transition: width 0.3s ease;
-  /* Optional: Add a transition for a smoother effect */
 }
 
 .custom-border:hover::before {
   width: 28%;
   background-color: #3490dc; /* Adjust this value to control the color */
 }
-.hero {
-  background-image: url ("/images/IMG_1502.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 html {
   scroll-behavior: smooth;
+}
+/* @keyframes slideIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.slide-in-text {
+  animation: slideIn 1s ease-in-out; 
+} */
+
+.slide-in-text {
+  animation-name: slideIn;
+  animation-duration: 1s; /* Adjust as needed */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
 }

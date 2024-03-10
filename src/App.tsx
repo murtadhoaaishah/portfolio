@@ -15,7 +15,7 @@ function App() {
       <section>
         <Aside />
       </section>
-      <section className="pflex-1 flex flex-col col-span-2">
+      <section className="flex-1 flex flex-col col-span-2">
         <section id="home">
           <Hero />
         </section>

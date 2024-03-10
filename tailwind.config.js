@@ -3,8 +3,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      backgroungImage: {
-        hero: "/public/images/IMG_1502.jpg",
+      backgroundImage: {
+        hero: "url('/public/images/IMG_1502.PNG')",
       },
     },
   },

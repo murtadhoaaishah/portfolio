@@ -9,8 +9,6 @@ import Work from "./Work";
 import About from "./About";
 
 const Aside = () => {
-  // const [home, isHome] = useState(false)
-
   const pages = [
     {
       id: 1,
@@ -63,12 +61,12 @@ const Aside = () => {
     setSelected(index);
   };
   return (
-    <div className="flex flex-col h-screen w-[25rem] p-12 text-center bg-[#f2f3f7] ml-[8rem] fixed">
+    <div className="flex flex-col h-screen w-[25rem] p-12 text-center bg-[#f2f3f7] ml-[5rem] fixed">
       <div className="mb-12">
         <img
           src="/images/IMG_1502.jpg"
           alt="img"
-          className="h-[12rem] w-[15rem] rounded-[50%]"
+          className="h-[14rem] w-[15rem] rounded-[55%]"
         />
       </div>
       <span className="name mb-8 text-2xl font-extrabold">Murtadho Aishat</span>
@@ -86,14 +84,6 @@ const Aside = () => {
             {page.name}
           </a>
         ))}
-        {/* {selected === 0 && <Hero />}
-        {selected === 1 && <About />}
-        {selected === 2 && <Services />}
-        {selected === 3 && <Skills />}
-        {selected === 4 && <Education />}
-        {selected === 5 && <Experience />}
-        {selected === 6 && <Work />}
-        {selected === 7 && <Contact />} */}
       </div>
     </div>
   );
