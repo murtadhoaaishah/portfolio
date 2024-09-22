@@ -1,25 +1,14 @@
-// import React from "react";
+import React from "react";
+import { professions } from "../data";
 
-// const professionCard = () => {
-//   const professions = [
-//     {
-//       id: 1,
-//       icon: "",
-//       profession: "frontend development",
-//     },
-//   ];
+const ProfessionCard = ({ icon, title }: { icon: string; title: string }) => {
+  return (
+    <div className="w-48 h-36 flex flex-col p-6 shadow-xl">
+      {" "}
+      <img src={icon} className="w-8 mb-6 border-gray" />
+      <p className="font-medium">{title}</p>
+    </div>
+  );
+};
 
-//   return (
-//     <div className="">
-//       {professions.map((profession) => {
-//         <div>
-//           {" "}
-//           <img src={profession.icon} />
-//           <p>{profession.profession}</p>
-//         </div>;
-//       })}
-//     </div>
-//   );
-// };
-
-// export default professionCard;
+export default ProfessionCard;

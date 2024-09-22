@@ -4,7 +4,9 @@ import Aside from "./components/Aside";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
+import Expertise from "./components/Expertise";
 import Hero from "./components/Hero";
+import ProjectCount from "./components/ProjectCount";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
@@ -22,6 +24,8 @@ function App() {
         <section id="about">
           <About />
         </section>
+        <ProjectCount />
+        <Expertise />
         <section id="services">
           <Services />
         </section>
