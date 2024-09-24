@@ -16,6 +16,16 @@ code {
     monospace;
 } */
 
+@layer base {
+  h1 {
+    @apply text-xl font-bold; /* Apply custom font size and weight for h1 */
+  }
+
+  p {
+    @apply text-base font-normal; /* Apply custom font size and weight for p */
+  }
+}
+
 body {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;

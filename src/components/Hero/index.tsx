@@ -43,21 +43,21 @@ const Hero = () => {
           A seasoned Frontend developer with a proven track record
         </p>
       </div>
-      <div className="mb-[12rem]">
-        <button className="tracking-widest border border-black w-[13rem] h-[2rem] text-xs">
+      <div className="mb-48">
+        <button className="tracking-widest border border-black w-52 h-8 text-xs">
           <span className="">DOWNLOAD CV</span>
           {/* <img src="" alt="" /> */}
         </button>
       </div>
       <div className="flex flex-col ml-12">
         <span
-          className={`h-[0.75rem] w-[0.75rem] rounded-xl mb-[0.5rem]
-          ${currentPage === 0 ? " bg-gray-400" : "border border-sky-500"}
+          className={`h-[0.75rem] w-[0.75rem] rounded-xl mb-2
+          ${currentPage === 0 ? " bg-gray" : "border border-blue"}
           `}
         ></span>
         <span
-          className={`h-[0.75rem] w-[0.75rem] rounded-xl mb-[0.5rem] border-sky-500
-          ${currentPage === 0 ? "border  border-sky-500" : "bg-gray-400"}
+          className={`h-[0.75rem] w-[0.75rem] rounded-xl mb-2 border-sky-500
+          ${currentPage === 0 ? "border  border-blue" : "bg-gray"}
           `}
         ></span>
       </div>

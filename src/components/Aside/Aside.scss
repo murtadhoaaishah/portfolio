@@ -1,0 +1,24 @@
+.container {
+  @apply flex flex-col h-screen w-[18rem] text-center bg-[#f2f3f7] fixed;
+}
+.img-container {
+  @apply flex mb-12 justify-center;
+}
+.side-img {
+  @apply h-[9rem] w-[9rem] rounded-[50%];
+}
+.side-name {
+  @apply mb-8 text-2xl font-extrabold;
+}
+.side-country {
+  @apply mb-12 text-xs;
+}
+.side-fd {
+  @apply text-blue;
+}
+.nav-item-cont {
+  @apply text-center flex flex-col space-y-4;
+}
+a {
+  @apply hover:border-b-2 border-b-[#2d98f0] text-xs tracking-widest;
+}

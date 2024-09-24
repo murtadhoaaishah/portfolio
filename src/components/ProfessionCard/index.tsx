@@ -1,5 +1,5 @@
 import React from "react";
-import { professions } from "../data";
+import { professions } from "../../data";
 
 const ProfessionCard = ({ icon, title }: { icon: string; title: string }) => {
   return (

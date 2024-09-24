@@ -1,6 +1,6 @@
 import React from "react";
-import { professions } from "../data";
-import ProfessionCard from "./ProfessionCard";
+import { professions } from "../../data";
+import ProfessionCard from "../ProfessionCard";
 
 const About = () => {
   return (

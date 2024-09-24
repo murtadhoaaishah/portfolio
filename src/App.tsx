@@ -1,7 +1,7 @@
 import "./App.css";
 import About from "./components/About";
-import Aside from "./components/Aside";
-import Contact from "./components/Contact";
+import Aside from "./components/Aside/index.";
+import Contact from "./components/Contacts";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Expertise from "./components/Expertise";

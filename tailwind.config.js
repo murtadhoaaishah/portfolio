@@ -13,6 +13,17 @@ export default {
         ligbtBlack: "#000000b3",
         green: "#2fa499",
         darkBlue: "#4054b2",
+        ash: "#f2f3f7",
+      },
+      fontSize: {
+        base: "16px",
+        lg: "18px",
+        xl: "24px",
+      },
+      fontWeight: {
+        normal: 400,
+        semiBold: 600,
+        bold: 700,
       },
       backgroundImage: {
         hero: "url('/public/images/IMG_1502.PNG')",
