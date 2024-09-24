@@ -1,0 +1,18 @@
+.about-container {
+  @apply h-screen pt-24 pl-10 pr-20;
+}
+.small-hdn {
+  @apply text-[0.65rem] tracking-[0.3rem] mb-10 text-gray;
+}
+.big-hdn {
+  @apply text-lg font-semibold tracking-[0.3rem] mb-24 text-ligbtBlack;
+}
+.text {
+  @apply text-ligbtBlack;
+}
+.about-name {
+  @apply text-sm font-semibold mr-2;
+}
+.profession-card-wrp {
+  @apply flex flex-wrap space-x-8;
+}
