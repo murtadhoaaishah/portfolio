@@ -1,21 +1,15 @@
 import React from "react";
+import "./Services.scss";
 
 const Services = () => {
   return (
     <div className="h-screen">
-      <h1>SERVICES</h1>
-
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam
-        maiores impedit? Quisquam iusto a temporibus sint nobis repudiandae
-        reprehenderit recusandae dolorum unde hic odio ratione inventore
-        assumenda vitae exercitationem animi corrupti, quidem accusamus repellat
-        debitis quibusdam tempora deserunt! Sunt dolores incidunt inventore rem,
-        cupiditate tenetur, laboriosam, ullam ratione et ipsa tempore facilis
-        soluta molestias? Unde iusto commodi quisquam sunt laudantium aspernatur
-        repellat veniam atque sapiente, maiores aut dolorum tempore sed
-        quibusdam harum fugit cupiditate adipisci molestias voluptatum
+      {/* <header className="ml-10 mr-20 mb-20"> */}
+      <p className="text-[0.65rem] tracking-[0.5rem] mb-10">WHAT I DO?</p>
+      <p className="text-lg font-semibold name tracking-[0.5rem] max-w-[50%]">
+        HERE ARE SOME OF MY EXPERTISE
       </p>
+      {/* </header> */}
     </div>
   );
 };
