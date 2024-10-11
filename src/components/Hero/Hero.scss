@@ -1,0 +1,33 @@
+.hero-cont {
+  @apply bg-cover bg-center h-screen flex flex-col pt-24;
+}
+.hero-hdn-wrp {
+  @apply flex flex-col mb-16  ml-12;
+}
+.hi {
+  @apply text-[3.75rem] font-extrabold;
+}
+.name-span {
+  @apply text-[3.75rem] font-extrabold;
+}
+.dvlper-desc {
+  @apply text-xl tracking-widest max-w-[40%];
+}
+.cv {
+  @apply tracking-widest border border-black w-44 h-12 text-xs mb-32 ml-12 px-8 py-6 flex items-center;
+}
+.cv img {
+  @apply mr-4;
+}
+// .cv-span {
+//   @apply;
+// }
+.btns {
+  @apply flex flex-col ml-12;
+}
+.btn1 {
+  @apply h-[0.75rem] w-[0.75rem] rounded-xl mb-2;
+}
+.btn2 {
+  @apply h-[0.75rem] w-[0.75rem] rounded-xl mb-2 border-sky-500;
+}
