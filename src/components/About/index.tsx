@@ -1,11 +1,11 @@
 import React from "react";
-import "./About.scss";
+import "./About.css";
 import { professions } from "../../data";
 import ProfessionCard from "../ProfessionCard";
 
 const About = () => {
   return (
-    <main className="about-container">
+    <main id="about" data-aos="fade-up" className="about-container">
       <section className="mb-10">
         <p className="small-hdn">ABOUT US</p>
         <p className="name big-hdn">WHO AM I</p>
@@ -25,7 +25,11 @@ const About = () => {
       </section>
       <section className="profession-card-wrp">
         {professions.map((profession, index) => (
-          <ProfessionCard icon={profession.icon} title={profession.title} />
+          <ProfessionCard
+            icon={profession.icon}
+            title={profession.title}
+            id={profession.id}
+          />
         ))}
       </section>
     </main>

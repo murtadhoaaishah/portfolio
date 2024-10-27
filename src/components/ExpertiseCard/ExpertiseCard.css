@@ -1,0 +1,21 @@
+.expertise-cont {
+  @apply w-[16rem] h-[18rem] flex flex-col items-center px-2 text-center relative shadow-2xl;
+}
+.expertise-titl {
+  @apply text-base mb-10 mt-2 font-semibold;
+}
+.expertise-desc {
+  @apply text-ligbtBlack;
+}
+.hexagon {
+  @apply relative -top-14  w-28 h-28 bg-blue flex justify-center items-center mx-8;
+
+  clip-path: polygon(
+    25% 6.7%,
+    75% 6.7%,
+    100% 50%,
+    75% 93.3%,
+    25% 93.3%,
+    0% 50%
+  );
+}

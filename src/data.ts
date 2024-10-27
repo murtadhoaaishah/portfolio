@@ -1,9 +1,11 @@
 export const professions = [
   {
+    id: 1,
     icon: "/vectors/frontend.svg",
     title: "frontend development",
   },
   {
+    id: 2,
     icon: "/vectors/backend.svg",
     title: "backend development",
   },
@@ -49,5 +51,28 @@ export const pages = [
     id: 9,
     name: "CONTACT",
     url: "#contact",
+  },
+];
+
+export const expeertises = [
+  {
+    icon: "",
+    title: "FRONTEND DEVELOPMENT",
+    desc: " Creating an engaging user experience through code, design, and functionality.",
+  },
+  {
+    icon: "",
+    title: "BACKEND DEVELOPMENT",
+    desc: "Creating and managing the server-side logic, databases, and APIs",
+  },
+  {
+    icon: "",
+    title: "WEBSITE MANAGEMENT",
+    desc: "Overseeing the maintenance, updates, and optimization of a website",
+  },
+  {
+    icon: "",
+    title: "TUTORIAL",
+    desc: "Tutorial guides through coding concepts, tools, and practices",
   },
 ];

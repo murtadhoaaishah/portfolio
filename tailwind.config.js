@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        playfair: ["Playfair Display", "serif"],
+      },
       colors: {
         blue: "#2d98f0",
         ash: "#f2f3f7",
@@ -10,23 +13,13 @@ export default {
         gold: "#f9bf3f",
         red: "#ec5453",
         purple: "#a84cb8",
-        ligbtBlack: "#000000b3",
+        ligbtBlack: "#4c4c4c",
         green: "#2fa499",
         darkBlue: "#4054b2",
         ash: "#f2f3f7",
       },
-      fontSize: {
-        base: "16px",
-        lg: "18px",
-        xl: "24px",
-      },
-      fontWeight: {
-        normal: 400,
-        semiBold: 600,
-        bold: 700,
-      },
       backgroundImage: {
-        hero: "url('/public/images/IMG_1502.PNG')",
+        hero: "url('/public/images/heroBg.PNG)",
       },
     },
   },

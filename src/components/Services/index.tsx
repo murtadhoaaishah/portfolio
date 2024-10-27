@@ -1,16 +1,25 @@
 import React from "react";
-import "./Services.scss";
+import "./Services.css";
+import { expeertises } from "../../data";
+import ExpertiseCard from "../ExpertiseCard";
 
 const Services = () => {
   return (
-    <div className="h-screen">
+    <main id="services" data-aos="fade-up" className="h-screen ml-10 mr-20">
       {/* <header className="ml-10 mr-20 mb-20"> */}
-      <p className="text-[0.65rem] tracking-[0.5rem] mb-10">WHAT I DO?</p>
-      <p className="text-lg font-semibold name tracking-[0.5rem] max-w-[50%]">
-        HERE ARE SOME OF MY EXPERTISE
-      </p>
+      <p className="small-hdn">WHAT I DO?</p>
+      <p className="big-hdn">HERE ARE SOME OF MY EXPERTISE</p>
       {/* </header> */}
-    </div>
+      <div className="expertise-card-cont">
+        {expeertises.map((expertise, index) => (
+          <ExpertiseCard
+            icon={expertise.icon}
+            title={expertise.title}
+            desc={expertise.desc}
+          />
+        ))}
+      </div>
+    </main>
   );
 };
 

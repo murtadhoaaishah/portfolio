@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import About from "./components/About";
 import Aside from "./components/Aside/index.";
@@ -11,43 +12,26 @@ import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 
-function App() {
+const App = () => {
   return (
     <div className="ml-14 grid grid-cols-[18rem_1fr]">
       <section>
         <Aside />
       </section>
-      <section className="">
-        <section id="home">
-          <Hero />
-        </section>
-        <section id="about">
-          <About />
-        </section>
+      <section>
+        <Hero />
+        <About />
         <ProjectCount />
-        <Expertise />
-        <section id="services">
-          <Services />
-        </section>
-        <section id="skills">
-          <Skills />
-        </section>
-        <section id="education">
-          <Education />
-        </section>
-        <section id="experience">
-          <Experience />
-        </section>
-        <section id="work">
-          <Work />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
+        <Services />
+        <Skills />
+        <Education />
+        <Experience />
+        <Work />
+        <Contact />
       </section>
     </div>
   );
-}
+};
 
 export default App;
 

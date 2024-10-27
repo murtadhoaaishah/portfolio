@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import "./Hero.scss";
+import "./Hero.css";
+import HeroComp1 from "../HeroComp2/HeroComp1";
+import HeroComp2 from "../HeroComp2";
 
 const Hero = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -12,24 +14,12 @@ const Hero = () => {
   }, []);
 
   return (
-    <main
+    <section
       className={`hero-cont hero slide-in-text ${
         currentPage === 0 ? "bg-hero" : "bg-white"
       }`}
     >
-      <section className="hero-hdn-wrp">
-        <span className="hi name">Hi!</span>
-        <span className="name name-span">I'm 'Aaishah</span>
-        <p className="dvlper-desc">
-          A seasoned Frontend developer with a proven track record
-        </p>
-      </section>
-      {/* <section className="mb-32 ml-12 h-20 w-24"> */}
-      <button className="cv">
-        <img src="vectors/download.svg" alt="" />
-        <span className="cv-span">DOWNLOAD CV</span>
-      </button>
-      {/* </section> */}
+      {currentPage == 0 ? <HeroComp1 /> : <HeroComp2 />}
       <div className="btns">
         <span
           className={`btn1 ${
@@ -44,7 +34,7 @@ const Hero = () => {
           `}
         ></span>
       </div>
-    </main>
+    </section>
   );
 };
 

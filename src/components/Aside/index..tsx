@@ -1,20 +1,27 @@
-import { useState } from "react";
-import "./Aside.scss";
+import { useEffect, useState } from "react";
+import "./Aside.css";
 import { pages } from "../../data";
+// import aside
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Aside = () => {
-  const [selected, setSelected] = useState<number>(0);
+  useEffect(() => {
+    AOS.init({ duration: 700, offset: 120 });
+  }, []);
 
-  const handleClick:
-    | React.MouseEventHandler<HTMLSpanElement>
-    | undefined
-    | any = (index: number) => {
-    setSelected(index);
+  const handleScroll = (e: any, target: any) => {
+    e.preventDefault();
+    document.querySelector(target).scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
   };
+
   return (
     <div className="container">
       <div className="img-container">
-        <img src="/images/IMG_1502.jpg" alt="img" className="side-img" />
+        {/* <img src={aside} alt="img" className="side-img" /> */}
       </div>
       <span className="name side-name">Murtadho Aishat</span>
       <span className="side-country">
@@ -23,7 +30,7 @@ const Aside = () => {
       <div className="nav-item-cont">
         {pages.map((page, index) => (
           <div>
-            <a onClick={() => handleClick(index)} href={page.url} key={page.id}>
+            <a href={page.url} onClick={(e) => handleScroll(e, page.url)}>
               {page.name}
             </a>
           </div>

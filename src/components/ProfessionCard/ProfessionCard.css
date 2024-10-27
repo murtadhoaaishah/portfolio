@@ -1,9 +1,10 @@
 .pro-card-cont {
-  @apply w-48 h-36 flex flex-col p-6 shadow-xl;
+  @apply border-b-[] w-48 h-36 flex flex-col p-6;
+  box-shadow: 0px 0px 15px 1px #8888;
 }
 .pro-card-cont img {
   @apply w-8 mb-6 border-gray;
 }
-.pro-card-cont p {
+.pro-card-desc {
   @apply font-medium text-ligbtBlack;
 }

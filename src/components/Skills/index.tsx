@@ -1,7 +1,11 @@
 import React from "react";
 
 const Skills = () => {
-  return <div className="h-screen">SKILLS</div>;
+  return (
+    <div id="skills" data-aos="fade-up" className="h-screen">
+      SKILLS
+    </div>
+  );
 };
 
 export default Skills;
