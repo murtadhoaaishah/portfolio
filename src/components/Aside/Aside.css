@@ -1,11 +1,11 @@
 .container {
-  @apply flex flex-col h-screen w-[18rem] text-center bg-[#f2f3f7] fixed;
+  @apply flex flex-col h-screen w-[18rem] text-center bg-[#f2f3f7];
 }
 .img-container {
   @apply flex mb-12 justify-center;
 }
 .side-img {
-  @apply h-[9rem] w-[9rem] rounded-[50%];
+  @apply h-[9rem] w-[9rem] rounded-[50%] object-cover;
 }
 .side-name {
   @apply mb-8 text-2xl font-extrabold;

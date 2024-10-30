@@ -15,9 +15,8 @@ const Hero = () => {
 
   return (
     <section
-      className={`hero-cont hero slide-in-text ${
-        currentPage === 0 ? "bg-hero" : "bg-white"
-      }`}
+      id="home"
+      className={`hero-cont hero ${currentPage === 0 ? "hero1" : "bg-white"}`}
     >
       {currentPage == 0 ? <HeroComp1 /> : <HeroComp2 />}
       <div className="btns">

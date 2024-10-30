@@ -1,3 +1,9 @@
 .expertise-card-cont {
   @apply flex flex-wrap gap-x-6 gap-y-20;
 }
+#services {
+  background-image: url("/public/images/projectsInfoBg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

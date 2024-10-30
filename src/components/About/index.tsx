@@ -5,7 +5,7 @@ import ProfessionCard from "../ProfessionCard";
 
 const About = () => {
   return (
-    <main id="about" data-aos="fade-up" className="about-container">
+    <main id="about" className="about-container">
       <section className="mb-10">
         <p className="small-hdn">ABOUT US</p>
         <p className="name big-hdn">WHO AM I</p>

@@ -21,7 +21,7 @@ const Aside = () => {
   return (
     <div className="container">
       <div className="img-container">
-        {/* <img src={aside} alt="img" className="side-img" /> */}
+        <img src={"/images/aside.jpg"} alt="img" className="side-img" />
       </div>
       <span className="name side-name">Murtadho Aishat</span>
       <span className="side-country">

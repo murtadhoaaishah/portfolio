@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div id="education" data-aos="fade-up" className="h-screen">
+    <div id="education" className="h-screen">
       EDUCATION
     </div>
   );

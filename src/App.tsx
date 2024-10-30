@@ -11,14 +11,15 @@ import ProjectCount from "./components/ProjectCount";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import ProjectsInfo from "./components/ProjectsInfo";
 
 const App = () => {
   return (
-    <div className="ml-14 grid grid-cols-[18rem_1fr]">
-      <section>
+    <div className="grid grid-cols-[auto_1fr]   w-screen">
+      <section className="ml-14 sticky top-0 bottom-0 left-0 h-screen">
         <Aside />
       </section>
-      <section>
+      <section className=" h-full  w-full">
         <Hero />
         <About />
         <ProjectCount />

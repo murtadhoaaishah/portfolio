@@ -18,9 +18,6 @@ export default {
         darkBlue: "#4054b2",
         ash: "#f2f3f7",
       },
-      backgroundImage: {
-        hero: "url('/public/images/heroBg.PNG)",
-      },
     },
   },
   plugins: [],

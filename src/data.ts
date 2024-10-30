@@ -56,12 +56,12 @@ export const pages = [
 
 export const expeertises = [
   {
-    icon: "",
+    icon: "/vectors/frontend.svg",
     title: "FRONTEND DEVELOPMENT",
     desc: " Creating an engaging user experience through code, design, and functionality.",
   },
   {
-    icon: "",
+    icon: "/vectors/backend.svg",
     title: "BACKEND DEVELOPMENT",
     desc: "Creating and managing the server-side logic, databases, and APIs",
   },

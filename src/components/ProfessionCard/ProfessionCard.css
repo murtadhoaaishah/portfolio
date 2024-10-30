@@ -1,6 +1,12 @@
 .pro-card-cont {
-  @apply border-b-[] w-48 h-36 flex flex-col p-6;
+  @apply border-b-2  w-48 h-36 flex flex-col p-6;
   box-shadow: 0px 0px 15px 1px #8888;
+  &:nth-child(1) {
+    @apply border-blue;
+  }
+  &:nth-child(2) {
+    @apply border-gold;
+  }
 }
 .pro-card-cont img {
   @apply w-8 mb-6 border-gray;

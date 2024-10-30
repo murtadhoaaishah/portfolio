@@ -12,7 +12,9 @@ const ExpertiseCard = ({
 }) => {
   return (
     <section className="expertise-cont">
-      <div className="hexagon"></div>
+      <div className="hexagon">
+        <img src={icon} alt="" />
+      </div>
       <p className="expertise-titl">{title}</p>
       <p>{desc}</p>
     </section>
