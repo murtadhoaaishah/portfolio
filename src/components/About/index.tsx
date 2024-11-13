@@ -8,7 +8,7 @@ const About = () => {
     <main id="about" className="about-container">
       <section className="mb-10">
         <p className="small-hdn">ABOUT US</p>
-        <p className="name big-hdn">WHO AM I</p>
+        <p className="big-hdn">WHO AM I</p>
         <p className="mb-8 text">
           <span className="about-name">Hi I am Murtadho 'Aaishah</span>A
           passionate frontend developer, that brings creativity and precision to

@@ -8,7 +8,7 @@
   @apply h-[9rem] w-[9rem] rounded-[50%] object-cover;
 }
 .side-name {
-  @apply mb-8 text-2xl font-extrabold;
+  @apply mb-8 text-2xl font-extrabold font-playfair;
 }
 .side-country {
   @apply mb-12 text-xs;

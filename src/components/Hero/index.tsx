@@ -18,7 +18,7 @@ const Hero = () => {
       id="home"
       className={`hero-cont hero ${currentPage === 0 ? "hero1" : "bg-white"}`}
     >
-      {currentPage == 0 ? <HeroComp1 /> : <HeroComp2 />}
+      {currentPage === 0 ? <HeroComp1 /> : <HeroComp2 />}
       <div className="btns">
         <span
           className={`btn1 ${

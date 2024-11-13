@@ -14,7 +14,7 @@ const ProfessionCard = ({
   return (
     <div className="pro-card-cont">
       {" "}
-      <img src={icon} className="" />
+      <img src={icon} className="" alt="icon" />
       <p className="pro-card-desc">{title}</p>
     </div>
   );

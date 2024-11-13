@@ -1,17 +1,14 @@
-import { useState } from "react";
 import "./App.css";
 import About from "./components/About";
 import Aside from "./components/Aside/index.";
 import Contact from "./components/Contacts";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
-import Expertise from "./components/Expertise";
 import Hero from "./components/Hero";
 import ProjectCount from "./components/ProjectCount";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
-import ProjectsInfo from "./components/ProjectsInfo";
 
 const App = () => {
   return (

@@ -2,9 +2,10 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div id="experience" className="h-screen">
-      <h1>Experience</h1>
-    </div>
+    <section id="experience" className="h-screen">
+      <p className="small-hdn">Experience</p>
+      <p className="big-hdn">WORK EXPERIENCE</p>
+    </section>
   );
 };
 

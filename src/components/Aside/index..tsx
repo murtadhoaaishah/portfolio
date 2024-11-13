@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import "./Aside.css";
 import { pages } from "../../data";
 // import aside
@@ -23,7 +23,7 @@ const Aside = () => {
       <div className="img-container">
         <img src={"/images/aside.jpg"} alt="img" className="side-img" />
       </div>
-      <span className="name side-name">Murtadho Aishat</span>
+      <span className="side-name">Murtadho Aishat</span>
       <span className="side-country">
         <span className="side-fd">FRONTEND DEVELOPER</span> IN NIGERIA
       </span>
