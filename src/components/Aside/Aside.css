@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-col h-screen w-[18rem] text-center bg-[#f2f3f7];
+  @apply bg-[#f2f3f7] w-[18rem] h-screen flex flex-col text-center;
 }
 .img-container {
   @apply flex mb-12 justify-center;
